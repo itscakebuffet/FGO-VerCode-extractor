@@ -31,4 +31,4 @@ jobs:
         with:
           force: true
           branch: "JP"
-          github_token: ${{ secrets.TOKEN_REPO }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
